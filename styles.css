@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Anton, sans-serif;
+}
+
+.back_img {
+ float: left;
+ width: 100%;
+ margin: -5px 0px -5px 0px;
+
+}
+
+.img_30 {
+  width: 30%;
+}
+
+.img_70 {
+  width: 70%;
+}
+
+.img_50 {
+  width: 50%
+}
+
+.content {
+    position: fixed; /* Fixes the title in the center of the viewport */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.content img {
+   max-width: 100%;
+}
+
+.date { 
+   font-size: 3em;
+   margin: 0.5em;
+}
+
+.qualifier {
+ font-size: 0.8em;
+}
+
+.location {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.venue {
+    font-size: 0.7em;
+}
+
+@media (max-width: 1000px) {
+
+   .content {
+      font-size: 0.8em;
+   }
+}
+
+@media (max-width: 400px) {
+
+   .content {
+       font-size: 0.8em;
+    }
+ }
