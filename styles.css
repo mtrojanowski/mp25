@@ -49,6 +49,11 @@
  font-size: 0.8em;
 }
 
+.qualifier_small {
+    margin-top: 0.2em;
+    font-size: 0.6em;
+}
+
 .location {
     font-size: 1.5em;
     margin-bottom: 1em;
@@ -56,6 +61,15 @@
 
 .venue {
     font-size: 0.7em;
+}
+
+.links a {
+    color: white;
+}
+
+.gold {
+    color: #FFD700;
+    font-weight: bold;
 }
 
 @media (max-width: 1000px) {
