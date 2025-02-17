@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Anton, sans-serif;
 }
 
 .back_img {
@@ -25,6 +24,7 @@
 }
 
 .content {
+    font-family: Arial, sans-serif;
     position: fixed; /* Fixes the title in the center of the viewport */
     top: 50%;
     left: 50%;
@@ -33,20 +33,28 @@
     text-align: center;
     font-size: 2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2em;
+}
+
+.warhammer {
+    font-weight: bold;
+    color: beige;
 }
 
 .content img {
    max-width: 100%;
 }
 
-.date { 
+.date {
    font-size: 3em;
    margin: 0.4em 0em 0.2em 0em;
 }
 
 .qualifier {
- font-size: 0.8em;
+ font-size: 1.2em;
+    color: lightgrey;
 }
 
 .qualifier_small {
@@ -64,12 +72,31 @@
 }
 
 .links a {
-    color: white;
+    font-weight: bold;
+    color: lightgrey;
 }
 
 .gold {
     color: #FFD700;
     font-weight: bold;
+}
+
+.link-space {
+    display: inline-block;
+    width: 60px;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+.sponsors {
+    margin: 1.5em 0em 0.5em 0em;
+    font-weight: bold;
+}
+
+. sponsor {
+    height: 150px;
 }
 
 @media (max-width: 1000px) {
@@ -84,4 +111,12 @@
    .content {
        font-size: 0.8em;
     }
- }
+
+    .link-space {
+        width: 15px;
+    }
+
+    .sponsor {
+        height: 80px;
+    }
+}
