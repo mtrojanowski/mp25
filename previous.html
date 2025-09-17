@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previous editions of Warhammer Underworlds Polish Championships</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="previous">
+<div class="previous_content">
+  <div class="logo">
+    <img alt="Warhammer Underworlds logo" src="logo.png" />
+  </div>
+  <h1>Polish Championships</h1>
+  <h3>Previous Editions</h3>
+
+  <div class="navigation">
+    <a href="index.html">Home</a>
+  </div>
+  <section>
+    <div class="year-title">2025</div>
+    <p>
+      Date: 29-30.03.2025
+      <br/>
+      Players: 33
+    </p>
+    <p>
+      Top 3:
+      <br />
+      1. Double Michał, <em>Zarbag's Gitz</em><br />
+      2. Ifinity, <em>The Thricefold Discord</em><br />
+      3. Muras, <em>Zarbag's Gitz</em><br />
+    </p>
+    <p>
+      <a href="https://shadeglass.eu/Tournament/a6337354-fe24-4bd4-bd34-98e2162817a9">Full results</a>
+    </p>
+    <div class="gallery">
+      <img src="gallery/2025/1.jpg" alt="2025 photo 1" class="thumb" onclick="openOverlay('gallery/2025/1.jpg', null, 'gallery/2025/2.jpg')">
+      <img src="gallery/2025/2.jpg" alt="2025 photo 2" class="thumb" onclick="openOverlay('gallery/2025/2.jpg', 'gallery/2025/1.jpg', 'gallery/2025/3.jpg')">
+      <img src="gallery/2025/3.jpg" alt="2025 photo 3" class="thumb" onclick="openOverlay('gallery/2025/3.jpg', 'gallery/2025/2.jpg', 'gallery/2025/4.jpg')">
+      <img src="gallery/2025/4.jpg" alt="2025 photo 4" class="thumb" onclick="openOverlay('gallery/2025/4.jpg', 'gallery/2025/3.jpg', 'gallery/2025/5.jpg')">
+      <img src="gallery/2025/5.jpg" alt="2025 photo 5" class="thumb" onclick="openOverlay('gallery/2025/5.jpg', 'gallery/2025/4.jpg', 'gallery/2025/6.jpg')">
+      <img src="gallery/2025/6.jpg" alt="2025 photo 6" class="thumb" onclick="openOverlay('gallery/2025/6.jpg', 'gallery/2025/5.jpg', 'gallery/2025/7.jpg')">
+      <img src="gallery/2025/7.jpg" alt="2025 photo 7" class="thumb" onclick="openOverlay('gallery/2025/7.jpg', 'gallery/2025/6.jpg', 'gallery/2025/8.jpg')">
+      <img src="gallery/2025/8.jpg" alt="2025 photo 8" class="thumb" onclick="openOverlay('gallery/2025/8.jpg', 'gallery/2025/7.jpg', null)">
+    </div>
+  </section>
+
+  <section>
+    <div class="year-title">2024</div>
+    <p>
+      Date: 13-14.04.2024
+      <br />
+      Players: 46
+    </p>
+    <p>
+      Top 3:
+      <br/>
+      1. Diablerist, <em>Domitan's Stormcoven</em><br/>
+      2. Kola, <em>The Crimson Court</em><br/>
+      3. Ifinity, <em>Domitan's Stormcoven</em><br/>
+    </p>
+    <p>
+      <a href="https://shadeglass.eu/Tournament/3565363e-1f15-409c-914c-92e47ce5f41a">Full results</a>
+    </p>
+    <div class="gallery">
+      <img src="gallery/2024/1.jpg" alt="2024 photo 1" class="thumb" onclick="openOverlay('gallery/2024/1.jpg', null, 'gallery/2024/1.jpg')">
+      <img src="gallery/2024/2.jpg" alt="2024 photo 2" class="thumb" onclick="openOverlay('gallery/2024/2.jpg', 'gallery/2024/1.jpg', 'gallery/2024/3.jpg')">
+      <img src="gallery/2024/3.jpg" alt="2024 photo 3" class="thumb" onclick="openOverlay('gallery/2024/3.jpg', 'gallery/2024/2.jpg', 'gallery/2024/4.jpg')">
+      <img src="gallery/2024/4.jpg" alt="2024 photo 4" class="thumb" onclick="openOverlay('gallery/2024/4.jpg', 'gallery/2024/3.jpg', 'gallery/2024/5.jpg')">
+      <img src="gallery/2024/5.jpg" alt="2024 photo 5" class="thumb" onclick="openOverlay('gallery/2024/5.jpg', 'gallery/2024/4.jpg', 'gallery/2024/6.jpg')">
+      <img src="gallery/2024/6.jpg" alt="2024 photo 6" class="thumb" onclick="openOverlay('gallery/2024/6.jpg', 'gallery/2024/5.jpg', 'gallery/2024/7.jpg')">
+      <img src="gallery/2024/7.jpg" alt="2024 photo 7" class="thumb" onclick="openOverlay('gallery/2024/7.jpg', 'gallery/2024/6.jpg', 'gallery/2024/8.jpg')">
+      <img src="gallery/2024/8.jpg" alt="2024 photo 8" class="thumb" onclick="openOverlay('gallery/2024/8.jpg', 'gallery/2024/7.jpg', 'gallery/2024/9.jpg')">
+      <img src="gallery/2024/9.jpg" alt="2024 photo 9" class="thumb" onclick="openOverlay('gallery/2024/9.jpg', 'gallery/2024/8.jpg', 'gallery/2024/10.jpg')">
+      <img src="gallery/2024/10.jpg" alt="2024 photo 10" class="thumb" onclick="openOverlay('gallery/2024/10.jpg', 'gallery/2024/9.jpg', 'gallery/2024/11.jpg')">
+      <img src="gallery/2024/11.jpg" alt="2024 photo 11" class="thumb" onclick="openOverlay('gallery/2024/11.jpg', 'gallery/2024/10.jpg', null)">
+    </div>
+  </section>
+</div>
+
+  <div class="overlay" id="imgOverlay" onclick="closeOverlay()">
+    <button class="close-btn" onclick="closeOverlay();">&times;</button>
+    <img id="overlayImg" src="" alt="Large view">
+  </div>
+
+  <script>
+    function openOverlay(src, prev, next) {
+      document.getElementById('overlayImg').src = src;
+      document.getElementById('imgOverlay').classList.add('active');
+    }
+    function closeOverlay() {
+      document.getElementById('imgOverlay').classList.remove('active');
+      document.getElementById('overlayImg').src = '';
+    }
+    // Optional: close overlay with ESC
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeOverlay();
+    });
+  </script>
+</body>
+</html>
