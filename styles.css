@@ -201,7 +201,7 @@ section {
 }
 
 .previous_content {
-    margin: 0 auto;
+    margin: 1em auto;
     width: 80%;
     background: rgba(0, 0, 0, 0.3);
     padding: 2em;
@@ -226,4 +226,31 @@ section {
 
 h3 {
     font-style: italic;
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 50%;
+    background-color: #c9a13b;
+    color: #e0c97a;
+    border: 2px solid #c9a13b;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    font-size: 2.5em;
+    cursor: pointer;
+    z-index: 1001;
+
+    &.left {
+        left: 32px;
+    }
+
+    &.right {
+        right: 32px;
+    }
+
+    &:hover {
+        color: #181818;
+        opacity: 0.6;
+    }
 }

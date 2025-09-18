@@ -1,6 +1,6 @@
-# Website for WHU Polish Championship
+# Website for WHU Polish Championships
 
-Simple static website for the Polish Championship of Warhammer Underworlds.
+Simple static website for the Polish Championships of Warhammer Underworlds.
 
 It's just an index.html page with styles in styles.css.
 
