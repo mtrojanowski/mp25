@@ -82,9 +82,11 @@
   <div class="overlay" id="imgOverlay" onclick="filterCloseOverlay(event)">
     <button class="close-btn" onclick="closeOverlay();">&times;</button>
     <div>
-      <button id="prevBtn" class="arrow-btn left" style="display:none" onclick="showPrev()">&#8592;</button>
       <img id="overlayImg" src="" alt="Large view">
-      <button id="nextBtn" class="arrow-btn right" style="display:none" onclick="showNext()">&#8594;</button>
+      <div>
+        <button id="prevBtn" class="arrow-btn left" style="display:none" onclick="showPrev()">&#8592;</button>
+        <button id="nextBtn" class="arrow-btn right" style="display:none" onclick="showNext()">&#8594;</button>
+      </div>
     </div>
   </div>
 

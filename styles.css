@@ -7,7 +7,6 @@
 .back_img {
  float: left;
  width: 100%;
- margin: -5px 0px -5px 0px;
  opacity: 0.8;
 }
 
@@ -168,6 +167,11 @@ h1 {
         transform: scale(1.08);
         border-color: #e0c97a;
     }
+
+    @media (width <= 500px) {
+        width: 60px;
+        height: 40px;
+    }
 }
 
 section {
@@ -213,6 +217,10 @@ section {
     p {
         margin: 1em 0;
     }
+
+    @media (width <= 1000px) {
+        font-size: 0.8em;
+    }
 }
 
 .navigation {
@@ -222,6 +230,10 @@ section {
 
 .logo {
     text-align: center;
+
+    img {
+        max-width: 100%;
+    }
 }
 
 h3 {
@@ -241,12 +253,30 @@ h3 {
     cursor: pointer;
     z-index: 1001;
 
+    @media (width <= 500px) {
+        position: relative;
+        margin-top: 0.1em;
+        font-size: 1em;
+        width: 28px;
+        height: 28px;
+    }
+
     &.left {
         left: 32px;
+
+        @media (width <= 500px) {
+            float: left;
+            left: 0;
+        }
     }
 
     &.right {
         right: 32px;
+
+        @media (width <= 500px) {
+            float: right;
+            right: 0;
+        }
     }
 
     &:hover {
@@ -254,3 +284,4 @@ h3 {
         opacity: 0.6;
     }
 }
+
