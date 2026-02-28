@@ -2,8 +2,6 @@
 
 Simple static website for the Polish Championships of Warhammer Underworlds.
 
-It's just an index.html page with styles in styles.css.
-
 # License and Copyright
 
 - The code is licensed under Apache License 2.0.
