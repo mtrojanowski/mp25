@@ -1,0 +1,13 @@
+FGB
+
+<a href="https://fgb.club">
+    <img src="fgb.png" class="sponsor" alt="Logo of the FGB shop" />
+</a>
+
+Wartiles
+
+http://wartiles.com
+
+<a href="http://wartiles.com">
+    <img src="war_tiles.png" class="sponsor sponsor-border" alt="Logo of the Wartiles shop" />
+</a>
